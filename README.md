@@ -1,2 +1,2 @@
-# DragAndDropVanillaJS
-Drag &amp; Drop With Vanilla JS
+# DragAndDropJS
+Drag &amp; Drop With JS
