@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: darksalmon;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -21,4 +22,36 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.fill{
+    background-image: url('City.jpg');
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.empty{
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    border: 3px salmon solid;
+    background-color: white;
+}
+
+.hold{
+    border: solid #ccc 4px;
+}
+
+.hoverd{
+    background: #f4f4f4;
+    border-style: dashed;
+}
+
+.invisible{
+    display: none;
 }
